@@ -15,5 +15,5 @@ git clone https://github.com/thuicenter/moverobot.git
 ### 把配置文件复制到相应目录
 
 ``` 
-cp ~/moverobot/urdf catkin_ws/src/myturtlebot
+cp ~/moverobot/urdf catkin_ws/src/myturtlebot/urdf
 ```
