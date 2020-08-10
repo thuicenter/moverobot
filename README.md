@@ -8,6 +8,7 @@ sudo apt install -y git
 
 ### 下载配置文件
 ``` 
+cd ~
 git clone https://github.com/thuicenter/moverobot.git
 ```
 
