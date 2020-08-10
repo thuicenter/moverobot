@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="myturtlebot">
+	<link name="base_footprint"/>
+	<joint name="base_joint" type="fixed">
+		<parent link="base_footprint"/>
+		<child link="base_link"/>
+		<origin rpy="0 0 0" xyz="0.0 0.0 0.010"/>
+	</joint>
+	<link name="base_link">
+		<visual>
+			<origin rpy="0 0 0" xyz="-0.032 0 0.0"/>
+			<geometry>
+				<mesh filename="package://turtlebot3_description/meshes/bases/burger_base.stl"
+						scale="0.001 0.001 0.001"/>
+			</geometry>
+			<material name="light_black"/>
+		</visual>
+	</link>
+</robot>
